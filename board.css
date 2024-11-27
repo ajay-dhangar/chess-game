@@ -1,0 +1,34 @@
+#board {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+}
+#board div {
+  width: 12.5%; /*62.5pixles*/
+  height: 12.5%; /*62.5pixles*/
+  font-size: 4em;
+  text-align: center;
+}
+
+#board .white {
+  background: #cfb5b5;
+}
+#board .black {
+  background: #604d4d;
+}
+h1 {
+  text-align: center;
+  margin-top: 0;
+}
+h2 {
+  text-align: center;
+}
+#btn {
+  text-align: center;
+  position: relative;
+  left: 48%;
+  top: 25px;
+}
